@@ -18,7 +18,7 @@
             android:id="@+id/external_ip_info"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/network_state_info"
+
             android:text="External IP:"
             />
 
@@ -29,7 +29,14 @@
             android:text="IGD Name:"
             />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Internet Gateway"
 
+            android:onClick="getIgd"
+
+            />
 
 
 </LinearLayout>
