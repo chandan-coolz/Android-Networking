@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/inputExternalIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:editable="false"
+        android:enabled="false"
+        android:hint="External Internet Protocol"
+        android:singleLine="true" />
+
+
+    <EditText
+        android:id="@+id/inputExternalPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:hint="External Port"
+        android:inputType="number"
+        android:singleLine="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/inputInternalIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:hint="Internal Internet Protocol"
+            android:singleLine="true" />
+
+
+        <Button
+            android:id="@+id/searchDeviceInternalIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+             />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/inputInternalPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:hint="Internal Port"
+        android:inputType="number"
+        android:singleLine="true" />
+
+
+    <Button
+        android:id="@+id/doneAddPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dip"
+
+        android:text="Open Port" />
+
+
+</LinearLayout>

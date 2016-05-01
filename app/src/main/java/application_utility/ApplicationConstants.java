@@ -10,6 +10,7 @@ public class ApplicationConstants {
     public static final int TYPE_WIFI = 1;
     public static final int TYPE_MOBILE = 2;
     public static final int TYPE_NOT_CONNECTED = 0;
+    public static final int SCAN_TIMEOUT = 5000;
 
 
 }
